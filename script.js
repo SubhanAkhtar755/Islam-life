@@ -73,7 +73,7 @@ if ("serviceWorker" in navigator) {
           body :'🌍Discover the beauty and wisdom of Islamic teachings.',
           icon : 'mosque.png',
         };
-        swReg.showNotification('Islam Life' , options)
+        swReg.showNotification('🌜Islam Life🌛' , options)
       })
   }
  
