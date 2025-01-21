@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadees Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="hadees.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Collection of Hadees</h1>
+        </header>
+
+        <div class="hadees-counter">
+            <div class="counter-display">
+                <span id="currentHadees">1</span>
+                <span class="counter-separator">/</span>
+                <span id="totalHadees">6</span>
+            </div>
+        </div>
+
+        <div class="hadees-container" id="hadeesContainer">
+            <!-- Cards will be dynamically added here -->
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+        </div>
+
+        <div class="navigation-buttons">
+            <button class="nav-btn" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+                Previous
+            </button>
+            <button class="nav-btn" id="nextBtn">
+                Next
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="hadees.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
