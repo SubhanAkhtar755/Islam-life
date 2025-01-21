@@ -70,10 +70,10 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker.ready.then((swReg)=>{
      
         var options = {
-          body :'🌍As an experienced web developer, I am passionate about creating robust and user-friendly web applications.',
+          body :'🌍Discover the beauty and wisdom of Islamic teachings.',
           icon : 'mosque.png',
         };
-        swReg.showNotification('MY portfolio Website' , options)
+        swReg.showNotification('🌜Islam Life🌛' , options)
       })
   }
  
