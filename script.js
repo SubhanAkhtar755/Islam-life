@@ -67,13 +67,13 @@ if ("serviceWorker" in navigator) {
         })
         .catch((err) => console.log("service worker not registered", err));
     });
-  
-  }
-  navigator.serviceWorker.ready.then((swReg)=>{
+    navigator.serviceWorker.ready.then((swReg)=>{
      
-    var options = {
-      body :'🌍As an experienced web developer, I am passionate about creating robust and user-friendly web applications.',
-      icon : 'mosque.png',
-    };
-    swReg.showNotification('MY portfolio Website' , options)
-  })
+        var options = {
+          body :'🌍As an experienced web developer, I am passionate about creating robust and user-friendly web applications.',
+          icon : 'mosque.png',
+        };
+        swReg.showNotification('MY portfolio Website' , options)
+      })
+  }
+ 
