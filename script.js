@@ -73,7 +73,7 @@ if ("serviceWorker" in navigator) {
      
     var options = {
       body :'🌍As an experienced web developer, I am passionate about creating robust and user-friendly web applications.',
-      icon : 'images/WhatsApp Image 2024-11-11 at 1.01.06 AM.jpeg',
+      icon : 'mosque.png',
     };
     swReg.showNotification('MY portfolio Website' , options)
   })
