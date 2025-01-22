@@ -178,7 +178,6 @@ body {
     .nav-menu.active {
         clip-path: circle(150% at top right);
     }
-
     .nav-list {
         flex-direction: column;
         gap: 1.5rem;
@@ -207,6 +206,7 @@ body {
     }
 }
 
+  
 /* Animation for Nav Items */
 @keyframes slideInDown {
     from {
@@ -214,7 +214,7 @@ body {
         opacity: 0;
     }
     to {
-        transform: translateY(0);
+        transform: translateY(-20px);
         opacity: 1;
     }
 }

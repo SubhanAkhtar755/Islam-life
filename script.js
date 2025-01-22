@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const menuToggle = document.querySelector('.menu-toggle');
+    const menuToggle = document.querySelector('.nav-toggle');
     const navLinks = document.querySelector('.nav-links');
 
     // Toggle mobile menu
@@ -8,11 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Close mobile menu when clicking outside
-    document.addEventListener('click', (e) => {
-        if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
-            navLinks.classList.remove('active');
-        }
-    });
+   
+  document.addEventListener('click', (e) => {
+    if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('active');
+    }
+});
 
     // Mobile Menu Toggle
     const navToggle = document.querySelector('.nav-toggle');
@@ -22,7 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
     navToggle.addEventListener('click', () => {
         navToggle.classList.toggle('active');
         navMenu.classList.toggle('active');
+      
     });
+    
 
     // Close menu when clicking a link
     navLinksNew.forEach(link => {
@@ -77,3 +80,8 @@ if ("serviceWorker" in navigator) {
       })
   }
  
+
+  
+
+
+
